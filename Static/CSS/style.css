@@ -35,7 +35,7 @@
 /* Barra de secciones */
 
 .header{
-    background-color: #9CCCAC;
+    background-color: var(--light-green);
     position: sticky;
     top:0;
     left:0;
@@ -98,6 +98,16 @@ nav {
     background-size: cover;
     background-position: center;
     height: 45vw;
+}
+
+.hd-logo {
+    height: 20vw;
+    margin-top: 3em;
+
+}
+
+.logo {
+    width: 43vw;
 }
 
 .cards {
