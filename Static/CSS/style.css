@@ -79,3 +79,47 @@ nav {
     background: #549C74;
     border: 1.3px solid #549C74;
 }
+
+
+.cards {
+    width: 20%;
+    float: left;
+    display: flex;
+}
+
+.card-categorias-img {
+    border-radius: 14px;
+    float: left;
+}
+
+.card-categorias-txt {
+    font-family: 'Roboto', sans-serif;
+    color: #234132;
+    font-size: 16pt;
+    font-weight: 300;
+    text-align: center;
+    float: left;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #820A54;
+    font-size: 24pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer{
+    background-color: #4F9673;
+    padding-top: 45px;
+    float: left;
+    width: 100%;
+}
+
+.footer-logo {
+    background-color: #fff; 
+    border-radius: 7px; 
+    width: 353px;
+    display: block;
+    align-items: center;
+} 
