@@ -1,3 +1,9 @@
+/* Selector universal */
+*{
+    margin: 0; 
+    padding: 0;
+}
+
 root {
     --violet: #820A54;
     --green: #4F9673;
@@ -87,6 +93,12 @@ nav {
     border: 1.3px solid var(--green);
 }
 
+#top {
+    background-image: url('../Img/top_image-min.png');
+    background-size: cover;
+    background-position: center;
+    height: 629px;
+}
 
 .cards {
     width: 100%;
