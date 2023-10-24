@@ -119,20 +119,8 @@ nav {
     margin-bottom: 4vw;
 }
 
-/*#nuestros-amigurumis {
-    display: flex;
-    padding: 0 7vw 0 7vw;
-}
-
-#nuestros-amigurumis div {
-    width: 20vw;
-    margin: 0 2vw 0 0;
-    background-color: #fff;
-    
-}*/
-
 .categoria-amig {
-    width: 200px;
+    width: 20vw;
     border-radius: 1em;
     align-items: center;
 }
@@ -148,28 +136,13 @@ nav {
     grid-template-rows: repeat(1, 1fr);
     column-gap: 1em;
     justify-content: center;
+    justify-items: center;
+    padding: 0 3vw 0 3vw;
 }
 
 .tipos-productos {
     align-content: center;
 }
-
-/*#categoria-1 {
-    flex: 1;
-}
-
-#categoria-2 {
-    flex: 1;
-}
-
-#categoria-3 {
-    flex: 1;
-}
-
-#categoria-4 {
-    flex: 1;
-}*/
-
 
 .card-categorias-txt {
     color: var(--dark-green);
@@ -183,16 +156,18 @@ h1{
     font-size: 2em;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 
 #footer{
     align-items: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1;
     justify-content: center;
     background-color: var(--green);
-    padding-top: 5%;
-    margin-top: 5%;
+    padding: 3em 0 3em 0;
+    margin-top: 3em;
     width: 100%;
 }
 
@@ -201,11 +176,41 @@ h1{
     border-radius: 1em; 
     width: 353px;
     padding: 1em;
-    align-items: center;
-    /*display: block;*/
+    margin-bottom: 3em;
 }
 
 #img-footer {
     width: 282px;
     
+}
+
+.footer-menu {
+    width: 100%;
+    display: block;
+}
+
+#footer-links {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+#footer-links li>a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2em;
+}
+
+#social-media-footer {
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+#copy-footer {
+    font-size: 0.7em;
+    color: #fff;
+    text-align: center;
+    margin-top: 5em;
 }
