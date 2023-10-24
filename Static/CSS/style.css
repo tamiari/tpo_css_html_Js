@@ -65,8 +65,8 @@ nav {
     font-size: 1em;
 }
 
-.nav-links li > a{
-    color: #FFF;
+.nav-links li a{
+    color: var(--dark-green);
     text-decoration: none;
 }
 
@@ -79,23 +79,22 @@ nav {
     justify-content: right;
 }
 
+.buttons-btn a{
+    color: #FFF;
+    text-decoration: none;
+}
 
 #btn-vervio1{
     padding: 10px;
     border-radius: 8px;
-    margin-right: 30px;
-    border: 1.3px solid var(--violet);
+    margin-right: 20px;
     background-color: var(--violet);
-    color: white !important;
-    
 }
 
 #btn-vervio2{
     padding: 10px;
     border-radius: 8px;
-    color: white !important;
-    background: var(--green);
-    border: 1.3px solid var(--green);
+    background-color: var(--green);
 }
 
 #top {
@@ -190,7 +189,7 @@ nav {
 h1{
     color: var(--violet);
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
 }
 
