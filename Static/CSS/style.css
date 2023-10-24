@@ -119,7 +119,7 @@ nav {
     margin-bottom: 4vw;
 }
 
-#nuestros-amigurumis {
+/*#nuestros-amigurumis {
     display: flex;
     padding: 0 7vw 0 7vw;
 }
@@ -129,9 +129,32 @@ nav {
     margin: 0 2vw 0 0;
     background-color: #fff;
     
+}*/
+
+.categoria-amig {
+    width: 200px;
+    border-radius: 1em;
+    align-items: center;
 }
 
-#categoria-1 {
+.categoria-amig:hover {
+    transform: scale(1.3em);
+    transition: ease-in;
+}
+
+.categorias-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 1em;
+    justify-content: center;
+}
+
+.tipos-productos {
+    align-content: center;
+}
+
+/*#categoria-1 {
     flex: 1;
 }
 
@@ -145,39 +168,8 @@ nav {
 
 #categoria-4 {
     flex: 1;
-}
+}*/
 
-.cards {
-    position: sticky;
-    top: 0;
-    width: 50vw;
-    height: 50vw;
-    min-width: 300px;
-    min-height: 300px;
-    max-width: 100vh;
-    max-height: 100vh;
-    overflow: hidden;
-    /*
-    width: 100%;
-    float: left;
-    display: flex;
-    position: absolute;
-    justify-content: space-around;*/
-}
-
-.card-categorias-img {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 1em;
-    justify-content: space-around;
-    /*border-radius: 14px;
-    position: relative;
-    width: 30%;*/
-}
 
 .card-categorias-txt {
     color: var(--dark-green);
@@ -193,18 +185,27 @@ h1{
     text-align: center;
 }
 
-footer{
+
+#footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
     background-color: var(--green);
     padding-top: 5%;
-    float: left;
-    width: 100%;
     margin-top: 5%;
+    width: 100%;
 }
 
 .footer-logo {
     background-color: #fff; 
-    border-radius: 7px; 
+    border-radius: 1em; 
     width: 353px;
-    display: block;
+    padding: 1em;
     align-items: center;
-} 
+    /*display: block;*/
+}
+
+#img-footer {
+    width: 282px;
+    
+}
