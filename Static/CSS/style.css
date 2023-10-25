@@ -147,11 +147,30 @@ h1{
     margin-bottom: 2em;
 }
 
-.image-about-us{
+.article-txt{
+    display: flex;
+    align-items: center;
+}
+       
+.article-txt img {
+    max-width: 100%;
+    height: auto;
     display: block;
     margin-left: auto;
-    margin-right: 22%;    
+    margin-right: 22%;
+    border-radius: 5%;
 }
+       
+.article-txt p {
+
+    display:grid;
+    text-align: left;
+    margin-top:-21%;
+    margin-left:14% ;
+    color: var(--green);
+    margin-bottom: 1em;
+}
+
 
 #footer{
     align-items: center;
