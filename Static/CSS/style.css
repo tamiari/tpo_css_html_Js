@@ -64,6 +64,17 @@ nav {
     text-decoration: none;
 }
 
+li{
+    padding: 2px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+li:hover{
+    background-color: #FFF;
+    cursor: pointer;
+}
+
 .buttons-btn{
     font-size: 1em;
     font-weight: 400;
@@ -83,12 +94,28 @@ nav {
     border-radius: 8px;
     margin-right: 20px;
     background-color: var(--violet);
+    transition: 0.5s;
+}
+
+#btn-vervio1:hover{
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+a:hover{
+    color: var(--violet);
 }
 
 #btn-vervio2{
     padding: 10px;
     border-radius: 8px;
     background-color: var(--green);
+    transition: 0.5s;
+}
+
+#btn-vervio2:hover{
+    background-color: #FFF;
+    cursor: pointer;
 }
 
 #top {
