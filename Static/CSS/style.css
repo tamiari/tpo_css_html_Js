@@ -358,3 +358,87 @@ h1{
     }
 
 }
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .logo-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 255px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo {
+        width: 60vw;
+    }
+
+    .hd-logo {
+        height: 30vw;
+        margin-top: 3em;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;    
+        align-items: center; 
+        height: 100px;
+        padding: 10px 0px 10px; 
+    }
+    
+    .nav-links{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        cursor: pointer;
+        white-space: nowrap;
+        flex-wrap: wrap;
+        font-size: 1em;
+    }
+    
+    .nav-links li a{
+        color: var(--dark-green);
+        text-decoration: none;
+    }
+    
+    .buttons-btn{
+        display: flex;
+        justify-content:left;
+        font-size: 1em;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .categorias-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 1em;
+        row-gap: 4.5em;
+        justify-content: center;
+        justify-items: center;
+        padding: 0 1vw 0 1vw;
+    }
+
+    .categoria-amig {
+        width: 40vw;
+        border-radius: 1em;
+        align-items:center;
+        margin-bottom: 0.8em;
+    }
+
+    .footer-logo {
+        background-color: #fff; 
+        border-radius: 1em; 
+        width: 300px;
+        padding: 1em;
+        margin-bottom: 3em;
+    }
+    
+    #img-footer {
+        width: 295px;
+    }
+    
+}
