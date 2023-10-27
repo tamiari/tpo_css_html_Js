@@ -166,6 +166,27 @@ a:hover{
     text-align: center;
 }
 
+.card-categorias-txt p{
+    margin-top: 15px;
+    padding: 8%;
+    line-height: 1.2;
+    color: var(--dark-green);
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.producto-amigurumis {
+    display: flex; 
+    justify-content: space-between;
+    padding: 5%;
+    gap: 10px;
+}
+   
+.producto-amigurumis img {
+    width: 20%; 
+    height: auto;
+}
+
 h1{
     color: var(--violet);
     font-size: 2em;
