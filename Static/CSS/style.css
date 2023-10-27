@@ -145,6 +145,14 @@ a:hover{
     align-items: center;
 }
 
+.categoria-amig:hover {
+    width: 20vw;
+    border-radius: 1em;
+    align-items:center;
+    -webkit-transform: scale(0.85);transform: scale(0.85);
+    filter: opacity(1);
+}
+
 .categorias-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr) ;
