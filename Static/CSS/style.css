@@ -143,6 +143,7 @@ a:hover{
     width: 20vw;
     border-radius: 1em;
     align-items: center;
+    filter: opacity(.5);
 }
 
 .categoria-amig:hover {
