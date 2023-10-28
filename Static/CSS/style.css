@@ -143,6 +143,7 @@ a:hover{
     width: 20vw;
     border-radius: 1em;
     align-items: center;
+    filter: opacity(.5);
 }
 
 .categoria-amig:hover {
@@ -181,6 +182,7 @@ a:hover{
     color: var(--dark-green);
     font-size: 1em;
     font-weight: 200;
+    text-decoration:none;
 }
 
 .producto-amigurumis {
