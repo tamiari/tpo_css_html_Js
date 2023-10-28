@@ -27,7 +27,7 @@
                     </ul>
                         <div class="buttons-btn">
                             <div id="btn-vervio1"><a href="#">Iniciar Sesión</a></div>
-                            <div id="btn-vervio2"><a href="./formularios.html">Registrarse</a></div>
+                            <div id="btn-vervio2"><a href="formularios.html">Registrarse</a></div>
                         </div>
             </nav>
         </div>
@@ -84,5 +84,25 @@
             <p id="copy-footer">(c) 2023 – Verde Violeta Tejidos</p>
         </div>
     </footer>
+<!-- the DIV that will contain the widget -->
+<div class="weatherWidget" ></div>
+<script>
+window.weatherWidgetConfig = window.weatherWidgetConfig || [];
+window.weatherWidgetConfig.push({
+selector:".weatherWidget",
+apiKey:"clima", 
+location:"San Salvador de Jujuy, Argentina", 
+unitGroup:"metric", 
+forecastDays:5, 
+title:"Jujuy, ARG", 
+});
+(function () {
+var d = document, s = d.createElement('script');
+s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
 </body>
 </html>
